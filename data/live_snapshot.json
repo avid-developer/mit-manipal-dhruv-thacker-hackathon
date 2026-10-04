@@ -1,0 +1,118 @@
+{
+  "captured_at": "2026-10-04T14:06:36.927Z",
+  "purpose": "Public-source ingestion audit; default replay uses separate fictional fixtures.",
+  "sources": [
+    {
+      "id": "fed",
+      "name": "Federal Reserve press releases",
+      "status": "error",
+      "checked_at": "2026-10-04T14:06:36.149Z",
+      "error": "Source returned HTTP 404",
+      "records": []
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News community stories",
+      "status": "ok",
+      "checked_at": "2026-10-04T14:06:36.225Z",
+      "records": [
+        {
+          "text": "Sugar from Outer Space Became One of the Backbones of Life on Earth",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49953890",
+          "published_at": "2026-10-04T13:44:15Z",
+          "synthetic": false
+        },
+        {
+          "text": "Is Getty Images Going Bankrupt?",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49953054",
+          "published_at": "2026-10-04T11:49:21Z",
+          "synthetic": false
+        },
+        {
+          "text": "America wants to wean itself off Chinese technology",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49951788",
+          "published_at": "2026-10-04T08:17:56Z",
+          "synthetic": false
+        },
+        {
+          "text": "Using Blu-ray M-Disk as Backup of Last Resort",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49951693",
+          "published_at": "2026-10-04T08:03:24Z",
+          "synthetic": false
+        },
+        {
+          "text": "Amazon responds to data center backlash, says it no longer uses NDAs",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49950827",
+          "published_at": "2026-10-04T05:09:32Z",
+          "synthetic": false
+        },
+        {
+          "text": "Weirdstuff Warehouse Reopens",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49950803",
+          "published_at": "2026-10-04T05:03:06Z",
+          "synthetic": false
+        },
+        {
+          "text": "Show HN: The Livability Map of Japan",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49950593",
+          "published_at": "2026-10-04T04:18:54Z",
+          "synthetic": false
+        },
+        {
+          "text": "Reasons I didn't become an EMT, ranked",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49947631",
+          "published_at": "2026-10-03T20:49:15Z",
+          "synthetic": false
+        },
+        {
+          "text": "Ban Flock Act Proposed in the US Sente",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49947176",
+          "published_at": "2026-10-03T19:50:06Z",
+          "synthetic": false
+        },
+        {
+          "text": "Pop!_OS bans AI-generated code from much of its codebase",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49946321",
+          "published_at": "2026-10-03T17:57:03Z",
+          "synthetic": false
+        },
+        {
+          "text": "Buying used CPUs can expose users to existing bans from anti-cheat engines",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49944525",
+          "published_at": "2026-10-03T14:22:09Z",
+          "synthetic": false
+        },
+        {
+          "text": "Co-pilot on Flydubai flight was banned from flying by Oman for extremist views",
+          "source": "Hacker News community stories",
+          "source_type": "social",
+          "source_url": "https://news.ycombinator.com/item?id=49942008",
+          "published_at": "2026-10-03T07:07:38Z",
+          "synthetic": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "L01",
+    "name": "Aster term loan",
+    "asset_type": "Loan",
+    "issuer": "ASTER",
+    "market_value": 20000000,
+    "rate_dv01": 0,
+    "spread_dv01": 0,
+    "equity_exposure": 0,
+    "credit_exposure": 20000000
+  },
+  {
+    "id": "L02",
+    "name": "Cedar revolving loan",
+    "asset_type": "Loan",
+    "issuer": "CEDAR",
+    "market_value": 15000000,
+    "rate_dv01": 0,
+    "spread_dv01": 0,
+    "equity_exposure": 0,
+    "credit_exposure": 15000000
+  },
+  {
+    "id": "L03",
+    "name": "Meridian project loan",
+    "asset_type": "Loan",
+    "issuer": "MERIDIAN",
+    "market_value": 10000000,
+    "rate_dv01": 0,
+    "spread_dv01": 0,
+    "equity_exposure": 0,
+    "credit_exposure": 10000000
+  },
+  {
+    "id": "B01",
+    "name": "Aster senior bond",
+    "asset_type": "Bond",
+    "issuer": "ASTER",
+    "market_value": 12000000,
+    "rate_dv01": 4800,
+    "spread_dv01": 4800,
+    "equity_exposure": 0,
+    "credit_exposure": 0
+  },
+  {
+    "id": "B02",
+    "name": "Cedar corporate bond",
+    "asset_type": "Bond",
+    "issuer": "CEDAR",
+    "market_value": 8000000,
+    "rate_dv01": 4000,
+    "spread_dv01": 4000,
+    "equity_exposure": 0,
+    "credit_exposure": 0
+  },
+  {
+    "id": "B03",
+    "name": "Meridian corporate bond",
+    "asset_type": "Bond",
+    "issuer": "MERIDIAN",
+    "market_value": 10000000,
+    "rate_dv01": 3500,
+    "spread_dv01": 3500,
+    "equity_exposure": 0,
+    "credit_exposure": 0
+  },
+  {
+    "id": "B04",
+    "name": "Harbor corporate bond",
+    "asset_type": "Bond",
+    "issuer": "HARBOR",
+    "market_value": 6000000,
+    "rate_dv01": 1800,
+    "spread_dv01": 1800,
+    "equity_exposure": 0,
+    "credit_exposure": 0
+  },
+  {
+    "id": "B05",
+    "name": "Atlas convertible bond",
+    "asset_type": "Bond",
+    "issuer": "ATLAS",
+    "market_value": 7000000,
+    "rate_dv01": 1400,
+    "spread_dv01": 1400,
+    "equity_exposure": 2000000,
+    "credit_exposure": 0
+  },
+  {
+    "id": "D01",
+    "name": "Pay fixed rate swap",
+    "asset_type": "Derivative",
+    "issuer": "ASTER",
+    "market_value": 1000000,
+    "rate_dv01": -6500,
+    "spread_dv01": 0,
+    "equity_exposure": 0,
+    "credit_exposure": 0
+  },
+  {
+    "id": "D02",
+    "name": "Equity total return swap",
+    "asset_type": "Derivative",
+    "issuer": "ATLAS",
+    "market_value": 1000000,
+    "rate_dv01": 0,
+    "spread_dv01": 0,
+    "equity_exposure": 12000000,
+    "credit_exposure": 0
+  },
+  {
+    "id": "E01",
+    "name": "Atlas equity holding",
+    "asset_type": "Equity",
+    "issuer": "ATLAS",
+    "market_value": 10000000,
+    "rate_dv01": 0,
+    "spread_dv01": 0,
+    "equity_exposure": 10000000,
+    "credit_exposure": 0
+  }
+]

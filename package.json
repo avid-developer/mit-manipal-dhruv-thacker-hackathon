@@ -1,0 +1,7 @@
+{
+  "name": "signalharbor", "version": "1.0.0", "private": true,
+  "description": "Explainable text risk signals and synthetic portfolio stress testing",
+  "type": "module", "engines": {"node": ">=22"},
+  "scripts": {"start": "node src/server.mjs", "test": "node --test tests/*.test.mjs", "evaluate": "node src/evaluate.mjs"},
+  "license": "MIT"
+}

@@ -1,0 +1,285 @@
+{
+  "evaluated_at": "2026-10-03T05:45:04.399Z",
+  "training_examples": 84,
+  "evaluation_examples": 28,
+  "correct": 28,
+  "accuracy": 1,
+  "macro_f1": 1,
+  "majority_class_baseline": 0.14285714285714285,
+  "latency_ms": {
+    "median": 0.04862500000000125,
+    "p95": 0.4070830000000001,
+    "runs": 1000
+  },
+  "environment": {
+    "node": "v23.11.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "limitations": "Small synthetic diagnostic set authored for this project; not evidence of real-world predictive accuracy. Latency excludes network, UI, and training. Impact scores and sentiment lack a labeled external benchmark.",
+  "per_class": [
+    {
+      "event": "Credit Event",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    {
+      "event": "Cyber/Operational",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    {
+      "event": "Geopolitical",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    {
+      "event": "Macroeconomic",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    {
+      "event": "Merger/Acquisition",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    {
+      "event": "Other",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    {
+      "event": "Product Launch",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    }
+  ],
+  "confusion": {
+    "Geopolitical": {
+      "Geopolitical": 4
+    },
+    "Macroeconomic": {
+      "Macroeconomic": 4
+    },
+    "Credit Event": {
+      "Credit Event": 4
+    },
+    "Merger/Acquisition": {
+      "Merger/Acquisition": 4
+    },
+    "Product Launch": {
+      "Product Launch": 4
+    },
+    "Cyber/Operational": {
+      "Cyber/Operational": 4
+    },
+    "Other": {
+      "Other": 4
+    }
+  },
+  "predictions": [
+    {
+      "id": "eval-000",
+      "text": "New sanctions follow a military invasion across the border.",
+      "expected": "Geopolitical",
+      "predicted": "Geopolitical",
+      "confidence": 0.997
+    },
+    {
+      "id": "eval-001",
+      "text": "A naval blockade halts regional trade and shipping.",
+      "expected": "Geopolitical",
+      "predicted": "Geopolitical",
+      "confidence": 1
+    },
+    {
+      "id": "eval-002",
+      "text": "A ceasefire ends an armed conflict between two nations.",
+      "expected": "Geopolitical",
+      "predicted": "Geopolitical",
+      "confidence": 0.84
+    },
+    {
+      "id": "eval-003",
+      "text": "Tariffs and export restrictions threaten cross border supply chains.",
+      "expected": "Geopolitical",
+      "predicted": "Geopolitical",
+      "confidence": 1
+    },
+    {
+      "id": "eval-004",
+      "text": "The central bank raises its policy rate as inflation surges.",
+      "expected": "Macroeconomic",
+      "predicted": "Macroeconomic",
+      "confidence": 1
+    },
+    {
+      "id": "eval-005",
+      "text": "GDP contracts for a second quarter as unemployment rises.",
+      "expected": "Macroeconomic",
+      "predicted": "Macroeconomic",
+      "confidence": 0.968
+    },
+    {
+      "id": "eval-006",
+      "text": "Monetary policy leaves interest rates unchanged.",
+      "expected": "Macroeconomic",
+      "predicted": "Macroeconomic",
+      "confidence": 1
+    },
+    {
+      "id": "eval-007",
+      "text": "A recession reduces household demand and economic growth.",
+      "expected": "Macroeconomic",
+      "predicted": "Macroeconomic",
+      "confidence": 0.999
+    },
+    {
+      "id": "eval-008",
+      "text": "Aster Bank files for bankruptcy after defaulting on debt.",
+      "expected": "Credit Event",
+      "predicted": "Credit Event",
+      "confidence": 1
+    },
+    {
+      "id": "eval-009",
+      "text": "A rating agency downgrades Cedar Energy corporate bonds.",
+      "expected": "Credit Event",
+      "predicted": "Credit Event",
+      "confidence": 1
+    },
+    {
+      "id": "eval-010",
+      "text": "A borrower misses its scheduled loan repayment.",
+      "expected": "Credit Event",
+      "predicted": "Credit Event",
+      "confidence": 0.951
+    },
+    {
+      "id": "eval-011",
+      "text": "The issuer receives an upgrade after repaying its debt.",
+      "expected": "Credit Event",
+      "predicted": "Credit Event",
+      "confidence": 0.991
+    },
+    {
+      "id": "eval-012",
+      "text": "A board accepts a rival takeover offer.",
+      "expected": "Merger/Acquisition",
+      "predicted": "Merger/Acquisition",
+      "confidence": 0.986
+    },
+    {
+      "id": "eval-013",
+      "text": "Regulators approve the merger of two manufacturers.",
+      "expected": "Merger/Acquisition",
+      "predicted": "Merger/Acquisition",
+      "confidence": 0.998
+    },
+    {
+      "id": "eval-014",
+      "text": "Atlas Technology agrees a cash acquisition of a smaller rival.",
+      "expected": "Merger/Acquisition",
+      "predicted": "Merger/Acquisition",
+      "confidence": 0.996
+    },
+    {
+      "id": "eval-015",
+      "text": "Shareholders reject a proposed buyout.",
+      "expected": "Merger/Acquisition",
+      "predicted": "Merger/Acquisition",
+      "confidence": 0.848
+    },
+    {
+      "id": "eval-016",
+      "text": "Atlas Technology unveils its new chip for cloud servers.",
+      "expected": "Product Launch",
+      "predicted": "Product Launch",
+      "confidence": 0.927
+    },
+    {
+      "id": "eval-017",
+      "text": "A manufacturer launches an innovative electric vehicle.",
+      "expected": "Product Launch",
+      "predicted": "Product Launch",
+      "confidence": 0.996
+    },
+    {
+      "id": "eval-018",
+      "text": "The company releases its latest software product.",
+      "expected": "Product Launch",
+      "predicted": "Product Launch",
+      "confidence": 0.92
+    },
+    {
+      "id": "eval-019",
+      "text": "The new smartphone enters commercial launch this month.",
+      "expected": "Product Launch",
+      "predicted": "Product Launch",
+      "confidence": 0.969
+    },
+    {
+      "id": "eval-020",
+      "text": "A ransomware attack disables Harbor Logistics servers.",
+      "expected": "Cyber/Operational",
+      "predicted": "Cyber/Operational",
+      "confidence": 1
+    },
+    {
+      "id": "eval-021",
+      "text": "A factory loses production after equipment failure.",
+      "expected": "Cyber/Operational",
+      "predicted": "Cyber/Operational",
+      "confidence": 0.998
+    },
+    {
+      "id": "eval-022",
+      "text": "The payment network suffers an outage.",
+      "expected": "Cyber/Operational",
+      "predicted": "Cyber/Operational",
+      "confidence": 0.904
+    },
+    {
+      "id": "eval-023",
+      "text": "Investigators confirm a cyber breach exposed customer data.",
+      "expected": "Cyber/Operational",
+      "predicted": "Cyber/Operational",
+      "confidence": 0.974
+    },
+    {
+      "id": "eval-024",
+      "text": "The board schedules its annual meeting.",
+      "expected": "Other",
+      "predicted": "Other",
+      "confidence": 0.975
+    },
+    {
+      "id": "eval-025",
+      "text": "A company changes its postal address.",
+      "expected": "Other",
+      "predicted": "Other",
+      "confidence": 0.353
+    },
+    {
+      "id": "eval-026",
+      "text": "Employees join a professional training event.",
+      "expected": "Other",
+      "predicted": "Other",
+      "confidence": 0.64
+    },
+    {
+      "id": "eval-027",
+      "text": "The bank releases its branch holiday calendar.",
+      "expected": "Other",
+      "predicted": "Other",
+      "confidence": 0.684
+    }
+  ]
+}

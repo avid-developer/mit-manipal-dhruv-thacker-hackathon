@@ -1,0 +1,66 @@
+[
+  {
+    "id": "n1",
+    "text": "War and sanctions escalate after a military invasion. A naval blockade halts international shipping and creates an energy supply crisis.",
+    "source": "Synthetic news fixture",
+    "source_type": "news",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:00:00Z"
+  },
+  {
+    "id": "n2",
+    "text": "Aster Bank defaults on debt and files for bankruptcy after a liquidity crisis.",
+    "source": "Synthetic news fixture",
+    "source_type": "news",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:10:00Z"
+  },
+  {
+    "id": "n3",
+    "text": "The central bank announces a surprise 200 basis point interest rate hike as inflation rises and a recession threatens economic growth.",
+    "source": "Synthetic news fixture",
+    "source_type": "news",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:20:00Z"
+  },
+  {
+    "id": "n4",
+    "text": "Atlas Technology launches a new processor with strong initial orders and improved performance.",
+    "source": "Synthetic news fixture",
+    "source_type": "news",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:30:00Z"
+  },
+  {
+    "id": "n5",
+    "text": "Harbor Logistics halts operations after a ransomware attack causes a major network outage.",
+    "source": "Synthetic news fixture",
+    "source_type": "news",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:40:00Z"
+  },
+  {
+    "id": "n6",
+    "text": "Cedar Energy receives a credit rating upgrade after repaying debt and improving liquidity.",
+    "source": "Synthetic news fixture",
+    "source_type": "news",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:50:00Z"
+  },
+  {
+    "id": "n7",
+    "text": "Atlas Technology agrees to acquire a software company. Shareholders approve the merger.",
+    "source": "Synthetic news fixture",
+    "source_type": "news",
+    "synthetic": true,
+    "published_at": "2026-10-03T09:00:00Z"
+  },
+  {
+    "id": "n8",
+    "text": "The company announces its annual meeting schedule and updates its office address.",
+    "source": "Synthetic news fixture",
+    "source_type": "news",
+    "synthetic": true,
+    "published_at": "2026-10-03T09:10:00Z"
+  }
+]

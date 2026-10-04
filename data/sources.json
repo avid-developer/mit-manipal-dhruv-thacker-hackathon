@@ -1,0 +1,24 @@
+{
+  "synthetic": {
+    "training": "84 original, AI-assisted authored examples; seven balanced classes.",
+    "evaluation": "28 separate synthetic diagnostic sentences; same author and domain. Not an independent real-world benchmark.",
+    "news_social": "14 fictional records; duplicate and rumor examples are intentional. Replay resets timestamps to the simulated current time.",
+    "portfolio": "11 fictional positions; USD 100 million net marked value. Names do not refer to real counterparties."
+  },
+  "live": [
+    {
+      "id": "fed",
+      "type": "news",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "documentation": "https://www.federalreserve.gov/feeds/feeds.htm",
+      "purpose": "Official monetary-policy and banking press-release titles and summaries."
+    },
+    {
+      "id": "hn",
+      "type": "social",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=bank&tags=story&hitsPerPage=12",
+      "documentation": "https://hn.algolia.com/api",
+      "purpose": "Public community-submitted finance-related story titles; social signals require review."
+    }
+  ]
+}

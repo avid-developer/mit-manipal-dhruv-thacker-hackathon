@@ -1,0 +1,506 @@
+[
+  {
+    "id": "train-000",
+    "event": "Geopolitical",
+    "text": "War and invasion trigger sanctions and a blockade of international trade routes.",
+    "synthetic": true
+  },
+  {
+    "id": "train-001",
+    "event": "Geopolitical",
+    "text": "Armed conflict closes borders and disrupts global supply chains.",
+    "synthetic": true
+  },
+  {
+    "id": "train-002",
+    "event": "Geopolitical",
+    "text": "An export embargo raises geopolitical tensions between neighboring countries.",
+    "synthetic": true
+  },
+  {
+    "id": "train-003",
+    "event": "Geopolitical",
+    "text": "Peace negotiations end the border conflict and restore shipping routes.",
+    "synthetic": true
+  },
+  {
+    "id": "train-004",
+    "event": "Geopolitical",
+    "text": "Governments impose sanctions on oil exports after the military invasion.",
+    "synthetic": true
+  },
+  {
+    "id": "train-005",
+    "event": "Geopolitical",
+    "text": "Trade restrictions and tariffs hit cross border commerce.",
+    "synthetic": true
+  },
+  {
+    "id": "train-006",
+    "event": "Geopolitical",
+    "text": "A ceasefire agreement reduces the risk of war and regional instability.",
+    "synthetic": true
+  },
+  {
+    "id": "train-007",
+    "event": "Geopolitical",
+    "text": "Naval blockade halts cargo shipments and creates an energy supply crisis.",
+    "synthetic": true
+  },
+  {
+    "id": "train-008",
+    "event": "Geopolitical",
+    "text": "Diplomatic tensions rise after attacks on international shipping lanes.",
+    "synthetic": true
+  },
+  {
+    "id": "train-009",
+    "event": "Geopolitical",
+    "text": "Authorities lift trade sanctions after successful peace talks.",
+    "synthetic": true
+  },
+  {
+    "id": "train-010",
+    "event": "Geopolitical",
+    "text": "Border disputes threaten commodity transport through the region.",
+    "synthetic": true
+  },
+  {
+    "id": "train-011",
+    "event": "Geopolitical",
+    "text": "The military conflict disrupts grain exports and supply chains.",
+    "synthetic": true
+  },
+  {
+    "id": "train-012",
+    "event": "Macroeconomic",
+    "text": "The central bank raises interest rates by 200 basis points as inflation accelerates.",
+    "synthetic": true
+  },
+  {
+    "id": "train-013",
+    "event": "Macroeconomic",
+    "text": "Consumer price inflation prompts tighter monetary policy and a rate hike.",
+    "synthetic": true
+  },
+  {
+    "id": "train-014",
+    "event": "Macroeconomic",
+    "text": "Gross domestic product contracts and the economy enters recession.",
+    "synthetic": true
+  },
+  {
+    "id": "train-015",
+    "event": "Macroeconomic",
+    "text": "Unemployment rises as economic growth slows and consumer spending declines.",
+    "synthetic": true
+  },
+  {
+    "id": "train-016",
+    "event": "Macroeconomic",
+    "text": "The central bank leaves interest rates unchanged in its monetary policy statement.",
+    "synthetic": true
+  },
+  {
+    "id": "train-017",
+    "event": "Macroeconomic",
+    "text": "Inflation cools as the economy records steady growth.",
+    "synthetic": true
+  },
+  {
+    "id": "train-018",
+    "event": "Macroeconomic",
+    "text": "A surprise interest rate hike increases borrowing costs across the economy.",
+    "synthetic": true
+  },
+  {
+    "id": "train-019",
+    "event": "Macroeconomic",
+    "text": "The policy committee cuts interest rates to support the economic recovery.",
+    "synthetic": true
+  },
+  {
+    "id": "train-020",
+    "event": "Macroeconomic",
+    "text": "Bond yields rise after inflation exceeds market expectations.",
+    "synthetic": true
+  },
+  {
+    "id": "train-021",
+    "event": "Macroeconomic",
+    "text": "Economic data show a contraction in industrial output and GDP.",
+    "synthetic": true
+  },
+  {
+    "id": "train-022",
+    "event": "Macroeconomic",
+    "text": "Fiscal stimulus boosts employment and household demand.",
+    "synthetic": true
+  },
+  {
+    "id": "train-023",
+    "event": "Macroeconomic",
+    "text": "Monetary tightening causes a funding shock and recession fears.",
+    "synthetic": true
+  },
+  {
+    "id": "train-024",
+    "event": "Credit Event",
+    "text": "Aster Bank defaults on its debt payment and files for bankruptcy.",
+    "synthetic": true
+  },
+  {
+    "id": "train-025",
+    "event": "Credit Event",
+    "text": "A credit rating downgrade increases the risk of insolvency.",
+    "synthetic": true
+  },
+  {
+    "id": "train-026",
+    "event": "Credit Event",
+    "text": "Cedar Energy misses an interest payment on its corporate bonds.",
+    "synthetic": true
+  },
+  {
+    "id": "train-027",
+    "event": "Credit Event",
+    "text": "The borrower restructures debt after a covenant breach.",
+    "synthetic": true
+  },
+  {
+    "id": "train-028",
+    "event": "Credit Event",
+    "text": "Lenders report rising loan losses and a deterioration in credit quality.",
+    "synthetic": true
+  },
+  {
+    "id": "train-029",
+    "event": "Credit Event",
+    "text": "A rating agency upgrades the issuer after debt repayment improves liquidity.",
+    "synthetic": true
+  },
+  {
+    "id": "train-030",
+    "event": "Credit Event",
+    "text": "The company cannot repay lenders and seeks bankruptcy protection.",
+    "synthetic": true
+  },
+  {
+    "id": "train-031",
+    "event": "Credit Event",
+    "text": "The bank faces a liquidity crisis and suspends bond repayments.",
+    "synthetic": true
+  },
+  {
+    "id": "train-032",
+    "event": "Credit Event",
+    "text": "Investors expect a default as cash reserves fall below debt obligations.",
+    "synthetic": true
+  },
+  {
+    "id": "train-033",
+    "event": "Credit Event",
+    "text": "Debt restructuring extends the maturity of overdue loans.",
+    "synthetic": true
+  },
+  {
+    "id": "train-034",
+    "event": "Credit Event",
+    "text": "Aster Bank confirms insolvency after a missed debt payment.",
+    "synthetic": true
+  },
+  {
+    "id": "train-035",
+    "event": "Credit Event",
+    "text": "The borrower repays all debt and receives a credit rating upgrade.",
+    "synthetic": true
+  },
+  {
+    "id": "train-036",
+    "event": "Merger/Acquisition",
+    "text": "Atlas Technology agrees to acquire a software company in a cash acquisition.",
+    "synthetic": true
+  },
+  {
+    "id": "train-037",
+    "event": "Merger/Acquisition",
+    "text": "Shareholders approve the merger between two regional banks.",
+    "synthetic": true
+  },
+  {
+    "id": "train-038",
+    "event": "Merger/Acquisition",
+    "text": "The acquisition deal awaits approval from competition regulators.",
+    "synthetic": true
+  },
+  {
+    "id": "train-039",
+    "event": "Merger/Acquisition",
+    "text": "A takeover bid values the target company at two billion dollars.",
+    "synthetic": true
+  },
+  {
+    "id": "train-040",
+    "event": "Merger/Acquisition",
+    "text": "The companies abandon merger negotiations after an antitrust review.",
+    "synthetic": true
+  },
+  {
+    "id": "train-041",
+    "event": "Merger/Acquisition",
+    "text": "A private equity buyout transfers ownership to a new investor.",
+    "synthetic": true
+  },
+  {
+    "id": "train-042",
+    "event": "Merger/Acquisition",
+    "text": "The merger closes after shareholders vote in favor of the transaction.",
+    "synthetic": true
+  },
+  {
+    "id": "train-043",
+    "event": "Merger/Acquisition",
+    "text": "The acquirer raises its takeover offer for the rival company.",
+    "synthetic": true
+  },
+  {
+    "id": "train-044",
+    "event": "Merger/Acquisition",
+    "text": "An acquisition expands the company into a new business segment.",
+    "synthetic": true
+  },
+  {
+    "id": "train-045",
+    "event": "Merger/Acquisition",
+    "text": "The antitrust authority blocks a proposed merger.",
+    "synthetic": true
+  },
+  {
+    "id": "train-046",
+    "event": "Merger/Acquisition",
+    "text": "Two manufacturers announce a merger agreement and integration plan.",
+    "synthetic": true
+  },
+  {
+    "id": "train-047",
+    "event": "Merger/Acquisition",
+    "text": "The board rejects an unsolicited takeover bid.",
+    "synthetic": true
+  },
+  {
+    "id": "train-048",
+    "event": "Product Launch",
+    "text": "Atlas Technology launches a new semiconductor product for data centers.",
+    "synthetic": true
+  },
+  {
+    "id": "train-049",
+    "event": "Product Launch",
+    "text": "The company introduces a new smartphone with improved battery life.",
+    "synthetic": true
+  },
+  {
+    "id": "train-050",
+    "event": "Product Launch",
+    "text": "A new product release brings innovative features to customers.",
+    "synthetic": true
+  },
+  {
+    "id": "train-051",
+    "event": "Product Launch",
+    "text": "The launch of a new cloud platform opens a growth opportunity.",
+    "synthetic": true
+  },
+  {
+    "id": "train-052",
+    "event": "Product Launch",
+    "text": "Regulators approve the company new medical device for commercial launch.",
+    "synthetic": true
+  },
+  {
+    "id": "train-053",
+    "event": "Product Launch",
+    "text": "The manufacturer unveils a new electric vehicle model.",
+    "synthetic": true
+  },
+  {
+    "id": "train-054",
+    "event": "Product Launch",
+    "text": "The product launch is delayed by engineering problems.",
+    "synthetic": true
+  },
+  {
+    "id": "train-055",
+    "event": "Product Launch",
+    "text": "A new software release improves performance and customer experience.",
+    "synthetic": true
+  },
+  {
+    "id": "train-056",
+    "event": "Product Launch",
+    "text": "Customers welcome an innovative device at the product unveiling.",
+    "synthetic": true
+  },
+  {
+    "id": "train-057",
+    "event": "Product Launch",
+    "text": "Atlas Technology announces a new generation of processors.",
+    "synthetic": true
+  },
+  {
+    "id": "train-058",
+    "event": "Product Launch",
+    "text": "The company releases a new payment application for merchants.",
+    "synthetic": true
+  },
+  {
+    "id": "train-059",
+    "event": "Product Launch",
+    "text": "Initial orders for the newly launched product exceed expectations.",
+    "synthetic": true
+  },
+  {
+    "id": "train-060",
+    "event": "Cyber/Operational",
+    "text": "A ransomware attack shuts down Atlas Technology systems and causes an outage.",
+    "synthetic": true
+  },
+  {
+    "id": "train-061",
+    "event": "Cyber/Operational",
+    "text": "A data breach exposes customer records after a cyber attack.",
+    "synthetic": true
+  },
+  {
+    "id": "train-062",
+    "event": "Cyber/Operational",
+    "text": "Harbor Logistics halts operations after a ransomware incident.",
+    "synthetic": true
+  },
+  {
+    "id": "train-063",
+    "event": "Cyber/Operational",
+    "text": "A factory fire disrupts production and damages critical equipment.",
+    "synthetic": true
+  },
+  {
+    "id": "train-064",
+    "event": "Cyber/Operational",
+    "text": "An unexpected network outage disables payment processing.",
+    "synthetic": true
+  },
+  {
+    "id": "train-065",
+    "event": "Cyber/Operational",
+    "text": "The company restores services following a cyber security incident.",
+    "synthetic": true
+  },
+  {
+    "id": "train-066",
+    "event": "Cyber/Operational",
+    "text": "A system failure interrupts deliveries and delays operations.",
+    "synthetic": true
+  },
+  {
+    "id": "train-067",
+    "event": "Cyber/Operational",
+    "text": "A cyber attack compromises internal servers and steals data.",
+    "synthetic": true
+  },
+  {
+    "id": "train-068",
+    "event": "Cyber/Operational",
+    "text": "A production outage follows a major equipment failure.",
+    "synthetic": true
+  },
+  {
+    "id": "train-069",
+    "event": "Cyber/Operational",
+    "text": "The security team confirms a data breach in the corporate network.",
+    "synthetic": true
+  },
+  {
+    "id": "train-070",
+    "event": "Cyber/Operational",
+    "text": "Power failure forces the manufacturing plant to halt production.",
+    "synthetic": true
+  },
+  {
+    "id": "train-071",
+    "event": "Cyber/Operational",
+    "text": "The logistics platform resumes operations after an outage.",
+    "synthetic": true
+  },
+  {
+    "id": "train-072",
+    "event": "Other",
+    "text": "The company publishes its annual meeting schedule.",
+    "synthetic": true
+  },
+  {
+    "id": "train-073",
+    "event": "Other",
+    "text": "The board appoints a new independent director.",
+    "synthetic": true
+  },
+  {
+    "id": "train-074",
+    "event": "Other",
+    "text": "The investor relations department announces a conference call.",
+    "synthetic": true
+  },
+  {
+    "id": "train-075",
+    "event": "Other",
+    "text": "The office opens at nine and closes at five.",
+    "synthetic": true
+  },
+  {
+    "id": "train-076",
+    "event": "Other",
+    "text": "The company updates its mailing address and website.",
+    "synthetic": true
+  },
+  {
+    "id": "train-077",
+    "event": "Other",
+    "text": "An executive will speak at a technology conference.",
+    "synthetic": true
+  },
+  {
+    "id": "train-078",
+    "event": "Other",
+    "text": "Shareholders receive a notice of the annual general meeting.",
+    "synthetic": true
+  },
+  {
+    "id": "train-079",
+    "event": "Other",
+    "text": "The bank publishes a calendar of branch holidays.",
+    "synthetic": true
+  },
+  {
+    "id": "train-080",
+    "event": "Other",
+    "text": "Employees attend a training workshop this week.",
+    "synthetic": true
+  },
+  {
+    "id": "train-081",
+    "event": "Other",
+    "text": "The company celebrates its anniversary with a public exhibition.",
+    "synthetic": true
+  },
+  {
+    "id": "train-082",
+    "event": "Other",
+    "text": "A history of financial markets is available in the library.",
+    "synthetic": true
+  },
+  {
+    "id": "train-083",
+    "event": "Other",
+    "text": "The firm adds a frequently asked questions page to its website.",
+    "synthetic": true
+  }
+]

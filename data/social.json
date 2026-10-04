@@ -1,0 +1,50 @@
+[
+  {
+    "id": "s1",
+    "text": "Rumor: Aster Bank could default on its debt. This is unconfirmed.",
+    "source": "Synthetic social fixture",
+    "source_type": "social",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:00:00Z"
+  },
+  {
+    "id": "s2",
+    "text": "Love the new Atlas Technology product launch. Strong performance and a major improvement.",
+    "source": "Synthetic social fixture",
+    "source_type": "social",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:10:00Z"
+  },
+  {
+    "id": "s3",
+    "text": "Harbor Logistics network outage is affecting deliveries, according to users.",
+    "source": "Synthetic social fixture",
+    "source_type": "social",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:20:00Z"
+  },
+  {
+    "id": "s4",
+    "text": "War and sanctions escalate after a military invasion. A naval blockade halts international shipping and creates an energy supply crisis.",
+    "source": "Synthetic social fixture",
+    "source_type": "social",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:30:00Z"
+  },
+  {
+    "id": "s5",
+    "text": "Aster Bank denies a bankruptcy rumor. No default has occurred.",
+    "source": "Synthetic social fixture",
+    "source_type": "social",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:40:00Z"
+  },
+  {
+    "id": "s6",
+    "text": "The central bank interest rate hike could make borrowing more expensive.",
+    "source": "Synthetic social fixture",
+    "source_type": "social",
+    "synthetic": true,
+    "published_at": "2026-10-03T08:50:00Z"
+  }
+]
