@@ -1,115 +1,211 @@
 {
-  "captured_at": "2026-10-04T14:06:36.927Z",
+  "captured_at": "2026-10-04T23:00:04.663Z",
   "purpose": "Public-source ingestion audit; default replay uses separate fictional fixtures.",
   "sources": [
     {
       "id": "fed",
       "name": "Federal Reserve press releases",
-      "status": "error",
-      "checked_at": "2026-10-04T14:06:36.149Z",
-      "error": "Source returned HTTP 404",
-      "records": []
+      "status": "ok",
+      "checked_at": "2026-10-04T23:00:03.565Z",
+      "records": [
+        {
+          "text": "Federal Reserve Board announces approval of application by Fleur Capital Corporation. Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+          "published_at": "Fri, 2 Oct 2026 20:45:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O. Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+          "published_at": "Fri, 2 Oct 2026 20:00:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.. Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+          "published_at": "Fri, 2 Oct 2026 15:00:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements. Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+          "published_at": "Wed, 30 Sep 2026 13:00:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Agencies publish resolution plan feedback letters for 15 banking organizations. Agencies publish resolution plan feedback letters for 15 banking organizations",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+          "published_at": "Tue, 29 Sep 2026 20:00:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.. Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
+          "published_at": "Fri, 25 Sep 2026 20:30:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act. Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+          "published_at": "Thu, 24 Sep 2026 18:30:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank. Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
+          "published_at": "Thu, 24 Sep 2026 15:00:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board announces approval of application by BancFirst Corporation. Federal Reserve Board announces approval of application by BancFirst Corporation",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
+          "published_at": "Tue, 22 Sep 2026 20:30:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+          "published_at": "Fri, 18 Sep 2026 15:00:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
+          "published_at": "Fri, 18 Sep 2026 15:00:00 GMT",
+          "synthetic": false
+        },
+        {
+          "text": "Federal Reserve issues FOMC statement. Federal Reserve issues FOMC statement",
+          "source": "Federal Reserve press releases",
+          "source_type": "news",
+          "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "synthetic": false
+        }
+      ]
     },
     {
       "id": "hn",
       "name": "Hacker News community stories",
       "status": "ok",
-      "checked_at": "2026-10-04T14:06:36.225Z",
+      "checked_at": "2026-10-04T23:00:03.637Z",
       "records": [
         {
-          "text": "Sugar from Outer Space Became One of the Backbones of Life on Earth",
+          "text": "AI Backers Sound the Alarm About Safety",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49953890",
-          "published_at": "2026-10-04T13:44:15Z",
+          "source_url": "https://news.ycombinator.com/item?id=49958370",
+          "published_at": "2026-10-04T22:05:24Z",
           "synthetic": false
         },
         {
-          "text": "Is Getty Images Going Bankrupt?",
+          "text": "How Kyiv cracked Russia’s kill zone and got its tanks back in the fight",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49953054",
-          "published_at": "2026-10-04T11:49:21Z",
+          "source_url": "https://news.ycombinator.com/item?id=49958335",
+          "published_at": "2026-10-04T22:00:40Z",
           "synthetic": false
         },
         {
-          "text": "America wants to wean itself off Chinese technology",
+          "text": "Show HN: Runescape but its a parody of SF",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49951788",
-          "published_at": "2026-10-04T08:17:56Z",
+          "source_url": "https://news.ycombinator.com/item?id=49958239",
+          "published_at": "2026-10-04T21:48:10Z",
           "synthetic": false
         },
         {
-          "text": "Using Blu-ray M-Disk as Backup of Last Resort",
+          "text": "Show HN: MapLibre Compose, Interactive Vector Maps for Compose Multiplatform",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49951693",
-          "published_at": "2026-10-04T08:03:24Z",
+          "source_url": "https://news.ycombinator.com/item?id=49957752",
+          "published_at": "2026-10-04T20:55:40Z",
           "synthetic": false
         },
         {
-          "text": "Amazon responds to data center backlash, says it no longer uses NDAs",
+          "text": "Show HN: Web Analytics Focused on Revenue",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49950827",
-          "published_at": "2026-10-04T05:09:32Z",
+          "source_url": "https://news.ycombinator.com/item?id=49957425",
+          "published_at": "2026-10-04T20:20:35Z",
           "synthetic": false
         },
         {
-          "text": "Weirdstuff Warehouse Reopens",
+          "text": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49950803",
-          "published_at": "2026-10-04T05:03:06Z",
+          "source_url": "https://news.ycombinator.com/item?id=49957116",
+          "published_at": "2026-10-04T19:42:25Z",
           "synthetic": false
         },
         {
-          "text": "Show HN: The Livability Map of Japan",
+          "text": "Show HN: Make Claude Code sessions talk to each other",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49950593",
-          "published_at": "2026-10-04T04:18:54Z",
+          "source_url": "https://news.ycombinator.com/item?id=49957109",
+          "published_at": "2026-10-04T19:41:47Z",
           "synthetic": false
         },
         {
-          "text": "Reasons I didn't become an EMT, ranked",
+          "text": "Show HN: Ranking the most AI agent friendly tools",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49947631",
-          "published_at": "2026-10-03T20:49:15Z",
+          "source_url": "https://news.ycombinator.com/item?id=49956865",
+          "published_at": "2026-10-04T19:09:49Z",
           "synthetic": false
         },
         {
-          "text": "Ban Flock Act Proposed in the US Sente",
+          "text": "Show HN: Dataviz, ranked daily from GitHub, NPM, PyPI and CRAN",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49947176",
-          "published_at": "2026-10-03T19:50:06Z",
+          "source_url": "https://news.ycombinator.com/item?id=49956183",
+          "published_at": "2026-10-04T17:54:49Z",
           "synthetic": false
         },
         {
-          "text": "Pop!_OS bans AI-generated code from much of its codebase",
+          "text": "Amid bankruptcy filing, Illinois employees to be laid off",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49946321",
-          "published_at": "2026-10-03T17:57:03Z",
+          "source_url": "https://news.ycombinator.com/item?id=49956086",
+          "published_at": "2026-10-04T17:46:57Z",
           "synthetic": false
         },
         {
-          "text": "Buying used CPUs can expose users to existing bans from anti-cheat engines",
+          "text": "Background Passive FTP with No GUI Control Survives Apple Store DFU",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49944525",
-          "published_at": "2026-10-03T14:22:09Z",
+          "source_url": "https://news.ycombinator.com/item?id=49955626",
+          "published_at": "2026-10-04T16:58:54Z",
           "synthetic": false
         },
         {
-          "text": "Co-pilot on Flydubai flight was banned from flying by Oman for extremist views",
+          "text": "Claude Code deletes your old session logs after 30 days by default",
           "source": "Hacker News community stories",
           "source_type": "social",
-          "source_url": "https://news.ycombinator.com/item?id=49942008",
-          "published_at": "2026-10-03T07:07:38Z",
+          "source_url": "https://news.ycombinator.com/item?id=49955324",
+          "published_at": "2026-10-04T16:27:44Z",
           "synthetic": false
         }
       ]

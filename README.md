@@ -4,8 +4,9 @@
 **College Email ID:** dhruv8.mitmpl2023@learner.manipal.edu  
 **College / Campus:** Manipal Institute of Technology, Manipal  
 **Selected downstream module:** Module B - Strategic Portfolio Stress Testing  
+**Interactive Demo:** [Open SignalHarbor](https://avid-developer.github.io/mit-manipal-dhruv-thacker-hackathon/)  
 **Presentation:** [Seven-slide PDF](docs/presentation.pdf)  
-**Demo Video Link:** Publication pending - this field will be replaced with the verified unlisted YouTube URL before submission.
+**Demo Video Link:** [Watch the unlisted 4:22 walkthrough](https://youtu.be/1MJm6us3o0I).
 
 ## 1. Project Overview / Problem Statement & Approach
 
@@ -55,8 +56,9 @@ All default demo inputs are included under `data/`; no proprietary or client dat
 | `portfolio.json` | 11 fictional positions: loans, bonds, derivatives, and equity; USD 100m net marked value. DV01 means USD per one basis point. |
 | `evaluation_results.json` | Every prediction, confusion matrix, measured local timing, and environment. |
 | `sources.json` | Provenance, assumptions, and exact live-source endpoints. |
+| `live_snapshot.json` | Timestamped public-source ingestion audit with 12 Federal Reserve and 12 Hacker News records; separate from replay fixtures. |
 
-**Live adapters:** [Federal Reserve RSS](https://www.federalreserve.gov/feeds/feeds.htm) provides official news titles and summaries. [Hacker News Search API](https://hn.algolia.com/api) provides community-submitted story titles matching `bank`; this is a social-discussion proxy, not a representative investor-sentiment sample. Both were verified to return 12 records during local testing. Source freshness depends on each publisher. The app retains publication time and marks stale reports for review.
+**Live adapters:** [Federal Reserve RSS](https://www.federalreserve.gov/feeds/feeds.htm) provides official news titles and summaries. [Hacker News Search API](https://hn.algolia.com/api) provides community-submitted story titles matching `bank`; this is a social-discussion proxy, not a representative investor-sentiment sample. Both returned 12 records in the saved audit. A previous Federal Reserve request returned HTTP 404; the app surfaced that failure, and a subsequent request succeeded. The saved snapshot is an audit, not a guaranteed future response. Source freshness depends on each publisher. The app retains publication time and marks stale reports for review.
 
 Live content is transient and may change. Export a JSON snapshot from the dashboard to retain the exact records used in a session. Live records are never substituted with synthetic data after a network failure. Endpoints are fixed; no arbitrary-URL fetch proxy is exposed. Polls use a 60-second cooldown, a 15-second timeout, and a 1.5 MB response limit.
 
@@ -64,9 +66,10 @@ Live content is transient and may change. Export a JSON snapshot from the dashbo
 
 Runtime: **Node.js 22+**. Tested on macOS arm64 with Node 23.11.0. Any modern browser supports the demo. There is no package installation step.
 
-After cloning or downloading this repository:
+Clone this public repository:
 
 ```bash
+git clone https://github.com/avid-developer/mit-manipal-dhruv-thacker-hackathon.git
 cd mit-manipal-dhruv-thacker-hackathon
 npm start
 ```
@@ -86,6 +89,7 @@ The static UI can also run on GitHub Pages. Static hosting supports replay, manu
 ```bash
 npm test          # 22 functional and HTTP integration tests
 npm run evaluate # regenerate the synthetic evaluation report
+node src/capture-live.mjs # save a fresh public-source ingestion audit
 ```
 
 Tests temporarily bind loopback port 18887. The app defaults to loopback port 8787. Set `PORT` to change the app port. Leave the default loopback binding for personal use; this development server is not an authenticated production service.
@@ -131,6 +135,6 @@ The operational value is a reproducible route from a report to a reviewable scen
 
 ## 7. AI Usage & License
 
-AI assistance supported original code, synthetic examples, tests, writing, and presentation preparation. No pre-existing project was copied. The implementation is intended to be inspected and explained by the participant at the live jury pitch. See [MIT License](LICENSE).
+AI assistance supported original code, synthetic examples, tests, writing, presentation preparation, and demo production. The demo is an edited walkthrough of actual application captures with synthesized narration, not a recording of the participant's voice. Its [narration script](docs/demo-script.md) and [caption file](docs/demo-captions.srt) are included. No pre-existing project was copied. The implementation is intended to be inspected and explained by the participant at the live jury pitch. See [MIT License](LICENSE).
 
 Method reference: [scikit-learn's Naive Bayes explanation and probability caveat](https://scikit-learn.org/stable/modules/naive_bayes.html). The implementation here is original JavaScript and does not depend on scikit-learn.

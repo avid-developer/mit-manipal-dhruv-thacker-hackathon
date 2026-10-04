@@ -1,0 +1,231 @@
+1
+00:00:00,000 --> 00:00:05,935
+This is SignalHarbor, Dhruv Thacker’s submission for the S and P Global and Crisil Campus
+Hackathon.
+
+2
+00:00:05,935 --> 00:00:12,583
+It turns news and community text into an inspectable risk signal, then explores a
+hypothetical portfolio impact.
+
+3
+00:00:12,583 --> 00:00:17,984
+This edited walkthrough uses captures of the working application and synthesized
+narration.
+
+4
+00:00:17,984 --> 00:00:20,774
+The default replay contains fictional examples.
+
+5
+00:00:20,774 --> 00:00:26,887
+Fourteen inputs become thirteen unique signals, three stress triggers, and six items
+requiring review..
+
+6
+00:00:28,087 --> 00:00:34,371
+The public repository includes all code, datasets, a seven slide presentation, and an M I
+T license.
+
+7
+00:00:34,371 --> 00:00:41,031
+With Node version twenty two or newer, run npm start and open localhost on port eighty
+seven eighty seven.
+
+8
+00:00:41,031 --> 00:00:43,859
+No package installation or API key is needed.
+
+9
+00:00:43,859 --> 00:00:48,446
+The same original JavaScript engine runs in the browser and the Node API.
+
+10
+00:00:48,446 --> 00:00:52,027
+JSON outputs preserve the evidence behind each decision..
+
+11
+00:00:53,227 --> 00:00:59,157
+This fictional geopolitical report contains war, sanctions, invasion, and a shipping
+blockade.
+
+12
+00:00:59,157 --> 00:01:04,204
+The engine assigns negative sentiment, the geopolitical class, and severity ten.
+
+13
+00:01:04,204 --> 00:01:11,017
+A multinomial Naive Bayes classifier learns unigram and bigram features from eighty four
+synthetic examples.
+
+14
+00:01:11,017 --> 00:01:14,487
+Sentiment uses a financial lexicon with local negation.
+
+15
+00:01:14,487 --> 00:01:16,632
+Severity is an explicit heuristic.
+
+16
+00:01:16,632 --> 00:01:20,417
+Contributing terms and machine readable output stay visible.
+
+17
+00:01:20,417 --> 00:01:24,770
+Model scores are uncalibrated, not probabilities of market outcomes..
+
+18
+00:01:25,970 --> 00:01:32,987
+The selected signal passes the automatic trigger: severity above seven, negative
+sentiment, and no review flag.
+
+19
+00:01:32,987 --> 00:01:40,004
+Module B applies transparent shocks to eleven synthetic positions across loans, bonds,
+derivatives, and equity.
+
+20
+00:01:40,004 --> 00:01:46,453
+At severity ten, the one hundred million dollar portfolio falls to ninety two point three
+two million.
+
+21
+00:01:46,453 --> 00:01:52,395
+The seven point six eight million loss combines rate, spread, equity, and loan credit
+effects.
+
+22
+00:01:52,395 --> 00:01:55,367
+These are scenario assumptions, not forecasts..
+
+23
+00:01:56,567 --> 00:02:03,430
+Moving the severity slider from ten to five scales the shocks and halves the loss to three
+point eight four million dollars.
+
+24
+00:02:03,430 --> 00:02:06,751
+The rate shock becomes thirty seven point five basis points.
+
+25
+00:02:06,751 --> 00:02:09,408
+Each scenario starts from the original baseline.
+
+26
+00:02:09,408 --> 00:02:13,836
+Events do not compound the losses, and the interface marks the analyst override.
+
+27
+00:02:13,836 --> 00:02:17,434
+The rate hedge is included with its correct signed contribution..
+
+28
+00:02:18,634 --> 00:02:23,574
+Switching to the Aster credit event changes the scope to matching issuer positions.
+
+29
+00:02:23,574 --> 00:02:28,515
+The stressed portfolio value is approximately ninety six point two million dollars.
+
+30
+00:02:28,515 --> 00:02:30,598
+Unrelated issuers remain unchanged.
+
+31
+00:02:30,598 --> 00:02:35,717
+A pay fixed rate swap can gain when rates rise, even while other exposures lose value.
+
+32
+00:02:35,717 --> 00:02:39,883
+An unmatched issuer produces a warning and zero issuer specific loss..
+
+33
+00:02:41,083 --> 00:02:43,057
+The monitor also accepts new text.
+
+34
+00:02:43,057 --> 00:02:50,371
+Here the input is an unconfirmed rumor that Harbor Logistics could be hit by ransomware,
+with the source set to a social post.
+
+35
+00:02:50,371 --> 00:02:54,377
+This tests uncertainty handling alongside the core event extraction..
+
+36
+00:02:55,577 --> 00:02:59,413
+The result is a cyber or operational event with negative sentiment.
+
+37
+00:02:59,413 --> 00:03:01,760
+Qualified wording caps severity at seven.
+
+38
+00:03:01,760 --> 00:03:07,256
+The report is flagged for human review because it is unconfirmed and comes from a social
+source.
+
+39
+00:03:07,256 --> 00:03:09,947
+It does not create an automatic stress trigger.
+
+40
+00:03:09,947 --> 00:03:13,840
+Users can still explore a clearly identified hypothetical scenario..
+
+41
+00:03:15,040 --> 00:03:19,934
+Live mode polls official Federal Reserve news and Hacker News community story titles.
+
+42
+00:03:19,934 --> 00:03:22,812
+This run returned twelve records from each source.
+
+43
+00:03:22,812 --> 00:03:25,576
+Publication times and source links are retained.
+
+44
+00:03:25,576 --> 00:03:29,721
+All twenty four current records require review and none triggers stress.
+
+45
+00:03:29,721 --> 00:03:35,133
+A network error is displayed explicitly; synthetic records never replace a failed live
+source.
+
+46
+00:03:35,133 --> 00:03:41,120
+The static hosted demo supports replay and analysis, while live polling requires the local
+Node server..
+
+47
+00:03:42,320 --> 00:03:45,219
+Twenty two functional and H T T P tests passed.
+
+48
+00:03:45,219 --> 00:03:56,011
+The event model correctly classifies all twenty eight supplied diagnostic examples, but
+both training and evaluation are small, synthetic, and from the same author and domain.
+
+49
+00:03:56,011 --> 00:03:58,662
+This does not establish real news accuracy.
+
+50
+00:03:58,662 --> 00:04:05,754
+Local engine p ninety five latency was zero point four zero seven milliseconds, excluding
+networking and rendering.
+
+51
+00:04:05,754 --> 00:04:13,031
+Next steps are independent finance data, calibrated uncertainty, better entity linking,
+and full instrument repricing.
+
+52
+00:04:13,031 --> 00:04:15,806
+AI assistance is disclosed in the repository.
+
+53
+00:04:15,806 --> 00:04:20,308
+The code and presentation make every result reproducible and reviewable..
